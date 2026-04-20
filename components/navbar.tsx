@@ -83,7 +83,7 @@ export function Navbar() {
             <div className="hidden lg:flex items-center gap-2 rounded-full bg-gradient-to-r from-fit/10 to-fat/10 px-3 py-1.5">
               <Clock className="h-4 w-4 text-muted-foreground" />
               <span className="text-xs font-medium">
-                <span className="text-fit">FIT</span> 8-11 | <span className="text-fat">FAT</span> 11-22
+                <span className="text-fit">FIT</span> 8-12 | <span className="text-fat">FAT</span> 12-22
               </span>
             </div>
 
@@ -125,11 +125,11 @@ export function Navbar() {
                   <div className="mt-4 pt-4 border-t">
                     <div className="flex items-center gap-2 text-sm text-muted-foreground">
                       <Leaf className="h-4 w-4 text-fit" />
-                      <span>FIT menu: 8:00 - 11:00</span>
+                      <span>FIT menu: 8:00 - 12:00</span>
                     </div>
                     <div className="flex items-center gap-2 text-sm text-muted-foreground mt-2">
                       <Flame className="h-4 w-4 text-fat" />
-                      <span>FAT menu: 11:00 - 22:00</span>
+                      <span>FAT menu: 12:00 - 22:00</span>
                     </div>
                   </div>
                 </div>
