@@ -1,6 +1,6 @@
 "use client";
 
-import { useState, useEffect } from "react";
+import { useState, useEffect, Suspense } from "react";
 import { useSearchParams } from "next/navigation";
 import Image from "next/image";
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
@@ -11,7 +11,7 @@ import { getTranslation } from "@/lib/translations";
 import { Leaf, Flame, Clock, Sparkles } from "lucide-react";
 import { cn } from "@/lib/utils";
 
-export default function MenuPage() {
+function MenuContent() {
   const searchParams = useSearchParams();
   const mode = searchParams.get('mode') as "fit" | "fat" | null;
   const [activeTab, setActiveTab] = useState<"fit" | "fat">(mode || "fit");
@@ -208,5 +208,20 @@ export default function MenuPage() {
         </Tabs>
       </div>
     </main>
+  );
+}
+
+export default function MenuPage() {
+  return (
+    <Suspense fallback={
+      <div className="min-h-screen flex items-center justify-center">
+        <div className="text-center">
+          <div className="w-12 h-12 border-4 border-fit border-t-transparent rounded-full animate-spin mx-auto mb-4" />
+          <p className="text-muted-foreground">Loading menu...</p>
+        </div>
+      </div>
+    }>
+      <MenuContent />
+    </Suspense>
   );
 }
