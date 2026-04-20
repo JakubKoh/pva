@@ -254,11 +254,11 @@ export default function LocationsPage() {
                     </p>
                   </div>
                   <div className="bg-white rounded-lg p-3 border border-fit/20">
-                    <p className="text-2xl font-black text-fit">8:00 - 11:00</p>
+                    <p className="text-2xl font-black text-fit">8:00 - 12:00</p>
                   </div>
                   <p className="text-sm text-muted-foreground">
-                    ✓ {t.locationsPage.healthyBreakfasts}<br/>
-                    ✓ {t.locationsPage.freshSalads}<br/>
+                    ✓ {t.locationsPage.healthyBreakfasts}<br />
+                    ✓ {t.locationsPage.freshSalads}<br />
                     ✓ {t.locationsPage.energyBowls}
                   </p>
                 </div>
@@ -285,11 +285,11 @@ export default function LocationsPage() {
                     </p>
                   </div>
                   <div className="bg-white rounded-lg p-3 border border-fat/20">
-                    <p className="text-2xl font-black text-fat">11:00 - 22:00</p>
+                    <p className="text-2xl font-black text-fat">12:00 - 22:00</p>
                   </div>
                   <p className="text-sm text-muted-foreground">
-                    ✓ {t.locationsPage.juicyBurgers}<br/>
-                    ✓ {t.locationsPage.crispyStrips}<br/>
+                    ✓ {t.locationsPage.juicyBurgers}<br />
+                    ✓ {t.locationsPage.crispyStrips}<br />
                     ✓ {t.locationsPage.cheesyFries}
                   </p>
                 </div>

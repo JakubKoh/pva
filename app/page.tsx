@@ -236,7 +236,7 @@ export default function HomePage() {
                   activeMode === "fit" ? "bg-fit/80" : "bg-fat/80"
                 )}>
                   <p className="text-white font-bold text-lg">
-                    {activeMode === "fit" ? "8:00 - 11:00" : "11:00 - 22:00"}
+                    {activeMode === "fit" ? "8:00 - 12:00" : "12:00 - 22:00"}
                   </p>
                   <p className="text-white/80 text-sm">{t.common.open}</p>
                 </div>
@@ -516,8 +516,8 @@ export default function HomePage() {
                     <div className={cn(
                       "w-10 h-10 rounded-full flex items-center justify-center font-bold",
                       testimonial.type === "fit" ? "bg-fit/20 text-fit" :
-                      testimonial.type === "fat" ? "bg-fat/20 text-fat" :
-                      "bg-gradient-to-r from-fit/20 to-fat/20"
+                        testimonial.type === "fat" ? "bg-fat/20 text-fat" :
+                          "bg-gradient-to-r from-fit/20 to-fat/20"
                     )}>
                       {testimonial.name.charAt(0)}
                     </div>

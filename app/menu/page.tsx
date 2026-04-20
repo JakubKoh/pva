@@ -86,7 +86,7 @@ function MenuContent() {
               >
                 <Leaf className="mr-2 h-5 w-5" />
                 {t.hero.fitMenu}
-                <span className="ml-2 text-xs opacity-70">8:00-11:00</span>
+                <span className="ml-2 text-xs opacity-70">8:00-12:00</span>
               </TabsTrigger>
               <TabsTrigger
                 value="fat"
@@ -97,7 +97,7 @@ function MenuContent() {
               >
                 <Flame className="mr-2 h-5 w-5" />
                 {t.hero.fatMenu}
-                <span className="ml-2 text-xs opacity-70">11:00-22:00</span>
+                <span className="ml-2 text-xs opacity-70">12:00-22:00</span>
               </TabsTrigger>
             </TabsList>
           </div>
@@ -117,7 +117,7 @@ function MenuContent() {
                 </div>
                 <div className="flex items-center gap-2 bg-white rounded-full px-4 py-2 shadow-sm">
                   <Clock className="h-4 w-4 text-fit" />
-                  <span className="font-semibold">8:00 - 11:00</span>
+                  <span className="font-semibold">8:00 - 12:00</span>
                 </div>
               </div>
             </div>
@@ -160,7 +160,7 @@ function MenuContent() {
                 </div>
                 <div className="flex items-center gap-2 bg-white rounded-full px-4 py-2 shadow-sm">
                   <Clock className="h-4 w-4 text-fat" />
-                  <span className="font-semibold">11:00 - 22:00</span>
+                  <span className="font-semibold">12:00 - 22:00</span>
                 </div>
               </div>
             </div>
