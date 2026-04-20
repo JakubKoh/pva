@@ -88,6 +88,26 @@ export const menuItems: MenuItem[] = [
     tags: ["Vegan", "Superfood"],
     extras: healthyExtras,
   },
+  {
+    id: "egg-benedict",
+    name: "Vejce Benedikt",
+    description: "Pošírovaná vejce na opečeném anglickém muffinu s uzeným lososem, holandskou omáčkou a čerstvou pažitkou.",
+    price: 219,
+    image: "/images/menu/egg-benedict.png",
+    category: "fit",
+    tags: ["Snídaně", "Klasika"],
+    extras: healthyExtras,
+  },
+  {
+    id: "salmon-poke",
+    name: "Lososový Poke Bowl",
+    description: "Čerstvý losos, edamame, avokádo, ředkvičky a okurka na rýžovém lůžku se sezamem.",
+    price: 249,
+    image: "/images/menu/salmon-poke.png",
+    category: "fit",
+    tags: ["Ryba", "Čerstvé"],
+    extras: healthyExtras,
+  },
 
   // FAT MENU - Odpolední prasárny
   {
@@ -141,6 +161,26 @@ export const menuItems: MenuItem[] = [
     extras: burgerExtras,
   },
   {
+    id: "pulled-pork-burger",
+    name: "BBQ Pulled Pork Burger",
+    description: "Burger s trhaným vepřovým masem, coleslaw salátem, sýrem cheddar a porcí křupavé cibulky.",
+    price: 259,
+    image: "/images/menu/pulled-pork-burger.png",
+    category: "fat",
+    tags: ["Burger", "Trhané"),
+    extras: burgerExtras,
+  },
+  {
+    id: "mac-and-cheese",
+    name: "Sýrové Mac & Cheese",
+    description: "Krémové těstoviny se sýrovou omáčkou a křupavou slaninou, zapečené dozlatova.",
+    price: 189,
+    image: "/images/menu/mac-and-cheese.png",
+    category: "fat",
+    tags: ["Sýr", "Americká"),
+    extras: sauces,
+  },
+  {
     id: "onion-rings",
     name: "Mega cibulové kroužky",
     description: "Obří porce křupavých cibulových kroužků v pivním těstíčku. S ranch a BBQ dipem.",
@@ -170,6 +210,17 @@ export const menuItems: MenuItem[] = [
     tags: ["Kuřecí", "Sdílení"],
     extras: sauces,
   },
+  {
+    id: "monster-milkshake",
+    name: "Monster Milkshake",
+    description: "Extrémní čokoládový shake s porcí šlehačky, brownies a čokoládovým topingem.",
+    price: 149,
+    image: "/images/menu/monster-milkshake.png",
+    category: "fat",
+    tags: ["Slané", "XXL"),
+    extras: sauces,
+  },
+
 ];
 
 export const locations: Location[] = [
