@@ -167,7 +167,7 @@ export const menuItems: MenuItem[] = [
     price: 259,
     image: "/images/menu/pulled-pork-burger.png",
     category: "fat",
-    tags: ["Burger", "Trhané"),
+    tags: ["Burger", "Trhané"],
     extras: burgerExtras,
   },
   {
@@ -177,7 +177,7 @@ export const menuItems: MenuItem[] = [
     price: 189,
     image: "/images/menu/mac-and-cheese.png",
     category: "fat",
-    tags: ["Sýr", "Americká"),
+    tags: ["Sýr", "Americká"],
     extras: sauces,
   },
   {
@@ -217,7 +217,7 @@ export const menuItems: MenuItem[] = [
     price: 149,
     image: "/images/menu/monster-milkshake.png",
     category: "fat",
-    tags: ["Slané", "XXL"),
+    tags: ["Slané", "XXL"],
     extras: sauces,
   },
 
