@@ -31,7 +31,9 @@ export const menuItems: MenuItem[] = [
   {
     id: "avocado-toast",
     name: "Avokádový toast",
+    nameEn: "Avocado Toast",
     description: "Křupavý toast s čerstvým avokádem, cherry rajčaty, fetou a microgreens. Posypané semínky.",
+    descriptionEn: "Crispy toast with fresh avocado, cherry tomatoes, feta cheese and microgreens. Topped with seeds.",
     price: 189,
     image: "https://images.unsplash.com/photo-1541519227354-08fa5d50c44d?w=800&q=80",
     category: "fit",
@@ -41,7 +43,9 @@ export const menuItems: MenuItem[] = [
   {
     id: "scrambled-eggs",
     name: "Míchaná vajíčka",
+    nameEn: "Scrambled Eggs",
     description: "Nadýchaná míchaná vajíčka s pažitkou, podávané s celozrnným toastem a čerstvou zeleninou.",
+    descriptionEn: "Fluffy scrambled eggs with chives, served with whole grain toast and fresh vegetables.",
     price: 149,
     image: "https://images.unsplash.com/photo-1525351484163-7529414344d8?w=800&q=80",
     category: "fit",
@@ -51,7 +55,9 @@ export const menuItems: MenuItem[] = [
   {
     id: "chicken-vegetables",
     name: "Kuřecí prsa se zeleninou",
+    nameEn: "Grilled Chicken with Vegetables",
     description: "Grilovaná kuřecí prsa s mixem grilované zeleniny - cuketa, paprika, brokolice. Lehký bylinkový dresink.",
+    descriptionEn: "Grilled chicken breast with a mix of roasted vegetables — zucchini, bell pepper, broccoli. Light herb dressing.",
     price: 229,
     image: "https://images.unsplash.com/photo-1532550907401-a500c9a57435?w=800&q=80",
     category: "fit",
@@ -61,7 +67,9 @@ export const menuItems: MenuItem[] = [
   {
     id: "protein-waffles",
     name: "Proteinové waffle s ovocem",
+    nameEn: "Protein Waffles with Fruit",
     description: "Domácí waffle z ovesných vloček s čerstvým ovocem, řeckým jogurtem a lžící medu.",
+    descriptionEn: "Homemade oat waffles with fresh fruit, Greek yogurt and a drizzle of honey.",
     price: 179,
     image: "https://images.unsplash.com/photo-1562376552-0d160a2f238d?w=800&q=80",
     category: "fit",
@@ -71,7 +79,9 @@ export const menuItems: MenuItem[] = [
   {
     id: "fruit-pancakes",
     name: "Palačinky s ovocem",
+    nameEn: "Fruit Pancakes",
     description: "Nadýchané palačinky s čerstvými lesními plody, banánem a javorovým sirupem.",
+    descriptionEn: "Fluffy pancakes with fresh forest berries, banana and maple syrup.",
     price: 169,
     image: "https://images.unsplash.com/photo-1567620905732-2d1ec7ab7445?w=800&q=80",
     category: "fit",
@@ -81,7 +91,9 @@ export const menuItems: MenuItem[] = [
   {
     id: "smoothie-bowl",
     name: "Smoothie Bowl",
+    nameEn: "Smoothie Bowl",
     description: "Acai smoothie bowl s granolou, čerstvým ovocem, kokosovými chipsy a chia semínky.",
+    descriptionEn: "Acai smoothie bowl with granola, fresh fruit, coconut chips and chia seeds.",
     price: 199,
     image: "https://images.unsplash.com/photo-1590301157890-4810ed352733?w=800&q=80",
     category: "fit",
@@ -91,7 +103,9 @@ export const menuItems: MenuItem[] = [
   {
     id: "egg-benedict",
     name: "Vejce Benedikt",
+    nameEn: "Eggs Benedict",
     description: "Pošírovaná vejce na opečeném anglickém muffinu s uzeným lososem, holandskou omáčkou a čerstvou pažitkou.",
+    descriptionEn: "Poached eggs on a toasted English muffin with smoked salmon, hollandaise sauce and fresh chives.",
     price: 219,
     image: "/images/menu/egg-benedict.png",
     category: "fit",
@@ -101,13 +115,16 @@ export const menuItems: MenuItem[] = [
   {
     id: "salmon-poke",
     name: "Lososový Poke Bowl",
+    nameEn: "Salmon Poke Bowl",
     description: "Čerstvý losos, edamame, avokádo, ředkvičky a okurka na rýžovém lůžku se sezamem.",
+    descriptionEn: "Fresh salmon, edamame, avocado, radish and cucumber on a bed of rice with sesame.",
     price: 249,
     image: "/images/menu/salmon-poke.png",
     category: "fit",
     tags: ["Ryba", "Čerstvé"],
     extras: healthyExtras,
   },
+
 
   // FAT MENU - Odpolední prasárny
   {

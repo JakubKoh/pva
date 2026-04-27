@@ -13,6 +13,8 @@ import {
 } from "@/components/ui/sheet";
 import { Separator } from "@/components/ui/separator";
 import { useCartStore } from "@/lib/stores/cart-store";
+import { useLanguageStore } from "@/lib/stores/language-store";
+import { getLocalizedName } from "@/lib/utils";
 
 interface CartSheetProps {
   children: React.ReactNode;
@@ -20,6 +22,7 @@ interface CartSheetProps {
 
 export function CartSheet({ children }: CartSheetProps) {
   const { items, updateQuantity, removeItem, getTotal } = useCartStore();
+  const { language } = useLanguageStore();
   const total = getTotal();
 
   return (
@@ -69,7 +72,7 @@ export function CartSheet({ children }: CartSheetProps) {
                       <div className="flex flex-1 flex-col">
                         <div className="flex items-start justify-between">
                           <div>
-                            <h4 className="font-medium">{item.menuItem.name}</h4>
+                            <h4 className="font-medium">{getLocalizedName(item.menuItem, language)}</h4>
                             {item.selectedExtras.length > 0 && (
                               <p className="text-xs text-muted-foreground">
                                 + {item.selectedExtras.map((e) => e.name).join(", ")}

@@ -18,7 +18,8 @@ import { Checkbox } from "@/components/ui/checkbox";
 import { Label } from "@/components/ui/label";
 import { MenuItem, Extra } from "@/lib/types";
 import { useCartStore } from "@/lib/stores/cart-store";
-import { cn } from "@/lib/utils";
+import { useLanguageStore } from "@/lib/stores/language-store";
+import { cn, getLocalizedName, getLocalizedDescription } from "@/lib/utils";
 
 interface MenuCardProps {
   item: MenuItem;
@@ -29,6 +30,7 @@ export function MenuCard({ item }: MenuCardProps) {
   const [selectedExtras, setSelectedExtras] = useState<Extra[]>([]);
   const [addedToCart, setAddedToCart] = useState(false);
   const addItem = useCartStore((state) => state.addItem);
+  const { language } = useLanguageStore();
 
   const toggleExtra = (extra: Extra) => {
     setSelectedExtras((prev) =>
@@ -85,9 +87,9 @@ export function MenuCard({ item }: MenuCardProps) {
           </div>
         </div>
         <CardContent className="p-4">
-          <h3 className="text-lg font-semibold">{item.name}</h3>
+          <h3 className="text-lg font-semibold">{getLocalizedName(item, language)}</h3>
           <p className="mt-1 line-clamp-2 text-sm text-muted-foreground">
-            {item.description}
+            {getLocalizedDescription(item, language)}
           </p>
         </CardContent>
         <CardFooter className="flex items-center justify-between p-4 pt-0">
@@ -120,7 +122,7 @@ export function MenuCard({ item }: MenuCardProps) {
       <Dialog open={dialogOpen} onOpenChange={setDialogOpen}>
         <DialogContent className="sm:max-w-md">
           <DialogHeader>
-            <DialogTitle>{item.name}</DialogTitle>
+            <DialogTitle>{getLocalizedName(item, language)}</DialogTitle>
             <DialogDescription>
               Vyber si přídavky k tvému jídlu
             </DialogDescription>
