@@ -68,7 +68,7 @@ export default function LocationsPage() {
               </div>
               <div className="flex items-center gap-2 bg-white/20 backdrop-blur-sm rounded-full px-4 py-2">
                 <Star className="h-5 w-5 fill-yellow-300 text-yellow-300" />
-                <span className="font-semibold">4.9/5 {t.hero.rating}</span>
+                <span className="font-semibold">5/5 {t.hero.rating}</span>
               </div>
             </div>
           </div>
@@ -153,7 +153,7 @@ export default function LocationsPage() {
                   <div className="absolute top-4 right-4">
                     <Badge className="bg-fit text-white border-0 shadow-lg">
                       <Star className="h-3 w-3 mr-1 fill-current" />
-                      4.9
+                      5.0
                     </Badge>
                   </div>
 
