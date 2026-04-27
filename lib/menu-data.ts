@@ -80,8 +80,8 @@ export const menuItems: MenuItem[] = [
   },
   {
     id: "smoothie-bowl",
-    name: "Smoothie Bowl",
-    description: "Acai smoothie bowl s granolou, čerstvým ovocem, kokosovými chipsy a chia semínky.",
+    name: "Smoothie Mísa",
+    description: "Acai smoothie mísa s granolou, čerstvým ovocem, kokosovými chipsy a chia semínky.",
     price: 199,
     image: "https://images.unsplash.com/photo-1590301157890-4810ed352733?w=800&q=80",
     category: "fit",
@@ -100,7 +100,7 @@ export const menuItems: MenuItem[] = [
   },
   {
     id: "salmon-poke",
-    name: "Lososový Poke Bowl",
+    name: "Lososová Poke Mísa",
     description: "Čerstvý losos, edamame, avokádo, ředkvičky a okurka na rýžovém lůžku se sezamem.",
     price: 249,
     image: "/pva/images/menu/salmon-poke.png",
