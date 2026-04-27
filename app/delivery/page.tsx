@@ -26,7 +26,7 @@ import { useCartStore } from "@/lib/stores/cart-store";
 import { useLanguageStore } from "@/lib/stores/language-store";
 import { getTranslation } from "@/lib/translations";
 import { locations, deliveryZone } from "@/lib/menu-data";
-import { cn } from "@/lib/utils";
+import { cn, getLocalizedName } from "@/lib/utils";
 
 const Map = dynamic(() => import("@/components/map").then((mod) => mod.Map), {
   ssr: false,
@@ -314,7 +314,7 @@ export default function DeliveryPage() {
                               <div className="flex items-start justify-between">
                                 <div>
                                   <p className="text-sm font-medium">
-                                    {item.menuItem.name}
+                                    {getLocalizedName(item.menuItem, language)}
                                   </p>
                                   {item.selectedExtras.length > 0 && (
                                     <p className="text-xs text-muted-foreground">

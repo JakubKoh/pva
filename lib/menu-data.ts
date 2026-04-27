@@ -31,7 +31,9 @@ export const menuItems: MenuItem[] = [
   {
     id: "avocado-toast",
     name: "Avokádový toast",
+    nameEn: "Avocado Toast",
     description: "Křupavý toast s čerstvým avokádem, cherry rajčaty, fetou a microgreens. Posypané semínky.",
+    descriptionEn: "Crispy toast with fresh avocado, cherry tomatoes, feta cheese and microgreens. Topped with seeds.",
     price: 189,
     image: "https://images.unsplash.com/photo-1541519227354-08fa5d50c44d?w=800&q=80",
     category: "fit",
@@ -41,7 +43,9 @@ export const menuItems: MenuItem[] = [
   {
     id: "fried-egg",
     name: "Volské oko",
+    nameEn: "Fried Egg",
     description: "Volské oko s pažitkou, podávané s celozrnným toastem a čerstvou zeleninou.",
+    descriptionEn: "Fried egg with chives, served with wholegrain toast and fresh vegetables.",
     price: 149,
     image: "https://images.unsplash.com/photo-1525351484163-7529414344d8?w=800&q=80",
     category: "fit",
@@ -51,7 +55,9 @@ export const menuItems: MenuItem[] = [
   {
     id: "chicken-vegetables",
     name: "Kuřecí prsa se zeleninou",
+    nameEn: "Grilled Chicken with Vegetables",
     description: "Grilovaná kuřecí prsa s mixem grilované zeleniny - cuketa, paprika, brokolice. Lehký bylinkový dresink.",
+    descriptionEn: "Grilled chicken breast with a mix of roasted vegetables — zucchini, bell pepper, broccoli. Light herb dressing.",
     price: 229,
     image: "https://images.unsplash.com/photo-1532550907401-a500c9a57435?w=800&q=80",
     category: "fit",
@@ -61,7 +67,9 @@ export const menuItems: MenuItem[] = [
   {
     id: "protein-waffles",
     name: "Proteinové waffle s ovocem",
+    nameEn: "Protein Waffles with Fruit",
     description: "Domácí waffle z ovesných vloček s čerstvým ovocem, řeckým jogurtem a lžící medu.",
+    descriptionEn: "Homemade oat waffles with fresh fruit, Greek yogurt and a drizzle of honey.",
     price: 179,
     image: "https://images.unsplash.com/photo-1562376552-0d160a2f238d?w=800&q=80",
     category: "fit",
@@ -71,7 +79,9 @@ export const menuItems: MenuItem[] = [
   {
     id: "fruit-pancakes",
     name: "Palačinky s ovocem",
+    nameEn: "Fruit Pancakes",
     description: "Nadýchané palačinky s čerstvými lesními plody, banánem a javorovým sirupem.",
+    descriptionEn: "Fluffy pancakes with fresh forest berries, banana and maple syrup.",
     price: 169,
     image: "https://images.unsplash.com/photo-1567620905732-2d1ec7ab7445?w=800&q=80",
     category: "fit",
@@ -81,7 +91,9 @@ export const menuItems: MenuItem[] = [
   {
     id: "smoothie-bowl",
     name: "Smoothie Bowl",
+    nameEn: "Smoothie Bowl",
     description: "Acai smoothie bowl s granolou, čerstvým ovocem, kokosovými chipsy a chia semínky.",
+    descriptionEn: "Acai smoothie bowl with granola, fresh fruit, coconut chips and chia seeds.",
     price: 199,
     image: "https://images.unsplash.com/photo-1590301157890-4810ed352733?w=800&q=80",
     category: "fit",
@@ -91,7 +103,9 @@ export const menuItems: MenuItem[] = [
   {
     id: "egg-benedict",
     name: "Vejce Benedikt",
+    nameEn: "Eggs Benedict",
     description: "Pošírovaná vejce na opečeném anglickém muffinu s uzeným lososem, holandskou omáčkou a čerstvou pažitkou.",
+    descriptionEn: "Poached eggs on a toasted English muffin with smoked salmon, hollandaise sauce and fresh chives.",
     price: 219,
     image: "/pva/images/menu/egg-benedict.png",
     category: "fit",
@@ -101,7 +115,9 @@ export const menuItems: MenuItem[] = [
   {
     id: "salmon-poke",
     name: "Lososový Poke Bowl",
+    nameEn: "Salmon Poke Bowl",
     description: "Čerstvý losos, edamame, avokádo, ředkvičky a okurka na rýžovém lůžku se sezamem.",
+    descriptionEn: "Fresh salmon, edamame, avocado, radish and cucumber on a bed of rice with sesame.",
     price: 249,
     image: "/pva/images/menu/salmon-poke.png",
     category: "fit",
@@ -109,11 +125,14 @@ export const menuItems: MenuItem[] = [
     extras: healthyExtras,
   },
 
+
   // FAT MENU - Odpolední prasárny
   {
     id: "chicken-strips",
     name: "Kuřecí stripsy",
+    nameEn: "Chicken Strips",
     description: "Křupavé kuřecí stripsy v pikantním těstíčku. Podávané s výběrem omáček - bezedné refilly!",
+    descriptionEn: "Crispy chicken strips in a spicy batter. Served with your choice of sauces — bottomless refills!",
     price: 199,
     image: "https://images.unsplash.com/photo-1562967914-608f82629710?w=800&q=80",
     category: "fat",
@@ -123,7 +142,9 @@ export const menuItems: MenuItem[] = [
   {
     id: "cheese-fries",
     name: "Sýrové hranolky se slaninou",
+    nameEn: "Cheese Fries with Bacon",
     description: "Křupavé hranolky zalité roztaveným čedarem, posypané křupavou slaninou a jarní cibulkou.",
+    descriptionEn: "Crispy fries smothered in melted cheddar, topped with crispy bacon and spring onion.",
     price: 169,
     image: "https://images.unsplash.com/photo-1585109649139-366815a0d713?w=800&q=80",
     category: "fat",
@@ -133,7 +154,9 @@ export const menuItems: MenuItem[] = [
   {
     id: "big-mac-maxi",
     name: "Big Mac MAXI",
+    nameEn: "Big Mac MAXI",
     description: "Legendární burger v naší XXL verzi. Tři masové pláty, speciální omáčka, salát, sýr, okurky a cibule.",
+    descriptionEn: "The legendary burger in our XXL version. Three beef patties, special sauce, lettuce, cheese, pickles and onion.",
     price: 289,
     image: "https://images.unsplash.com/photo-1568901346375-23c9450c58cd?w=800&q=80",
     category: "fat",
@@ -143,7 +166,9 @@ export const menuItems: MenuItem[] = [
   {
     id: "loaded-wrap",
     name: "Loaded Wrap",
+    nameEn: "Loaded Wrap",
     description: "Tortilla plná kuřecího masa, sýru, zeleniny a naší speciální omáčky. Doslova přetéká chutí!",
+    descriptionEn: "A tortilla packed with chicken, cheese, vegetables and our special sauce. Literally overflowing with flavour!",
     price: 179,
     image: "https://images.unsplash.com/photo-1626700051175-6818013e1d4f?w=800&q=80",
     category: "fat",
@@ -153,7 +178,9 @@ export const menuItems: MenuItem[] = [
   {
     id: "double-bacon-burger",
     name: "Double Bacon Burger",
+    nameEn: "Double Bacon Burger",
     description: "Dva hovězí plátky, dvojitá porce slaniny, cheddar, karamelizovaná cibulka a BBQ omáčka.",
+    descriptionEn: "Two beef patties, double bacon, cheddar cheese, caramelised onion and BBQ sauce.",
     price: 269,
     image: "https://images.unsplash.com/photo-1553979459-d2229ba7433b?w=800&q=80",
     category: "fat",
@@ -163,7 +190,9 @@ export const menuItems: MenuItem[] = [
   {
     id: "pulled-pork-burger",
     name: "BBQ Pulled Pork Burger",
+    nameEn: "BBQ Pulled Pork Burger",
     description: "Burger s trhaným vepřovým masem, coleslaw salátem, sýrem cheddar a porcí křupavé cibulky.",
+    descriptionEn: "Burger with pulled pork, coleslaw, cheddar cheese and a portion of crispy onion.",
     price: 259,
     image: "/pva/images/menu/pulled-pork-burger.png",
     category: "fat",
@@ -173,7 +202,9 @@ export const menuItems: MenuItem[] = [
   {
     id: "mac-and-cheese",
     name: "Sýrové Mac & Cheese",
+    nameEn: "Cheesy Mac & Cheese",
     description: "Krémové těstoviny se sýrovou omáčkou a křupavou slaninou, zapečené dozlatova.",
+    descriptionEn: "Creamy pasta in a rich cheese sauce with crispy bacon, baked golden brown.",
     price: 189,
     image: "/pva/images/menu/mac-and-cheese.png",
     category: "fat",
@@ -183,7 +214,9 @@ export const menuItems: MenuItem[] = [
   {
     id: "onion-rings",
     name: "Mega cibulové kroužky",
+    nameEn: "Mega Onion Rings",
     description: "Obří porce křupavých cibulových kroužků v pivním těstíčku. S ranch a BBQ dipem.",
+    descriptionEn: "A huge portion of crispy onion rings in beer batter. Served with ranch and BBQ dip.",
     price: 129,
     image: "https://images.unsplash.com/photo-1639024471283-03518883512d?w=800&q=80",
     category: "fat",
@@ -193,7 +226,9 @@ export const menuItems: MenuItem[] = [
   {
     id: "chili-cheese-dog",
     name: "Chili Cheese Dog",
+    nameEn: "Chili Cheese Dog",
     description: "Párek v rohlíku s domácím chili con carne, rozpuštěným čedarem a jalapeños.",
+    descriptionEn: "Hot dog with homemade chili con carne, melted cheddar and jalapeños.",
     price: 159,
     image: "https://images.unsplash.com/photo-1556269923-e4ef51d69638?w=800&q=80",
     category: "fat",
@@ -203,7 +238,9 @@ export const menuItems: MenuItem[] = [
   {
     id: "chicken-bucket",
     name: "Chicken Bucket",
+    nameEn: "Chicken Bucket",
     description: "Kyblík plný smažených kuřecích křidélek a stehýnek. Pro 2-3 osoby. S výběrem omáček.",
+    descriptionEn: "A bucket full of fried chicken wings and thighs. For 2–3 people. With a choice of sauces.",
     price: 399,
     image: "https://images.unsplash.com/photo-1626645738196-c2a7c87a8f58?w=800&q=80",
     category: "fat",
@@ -213,7 +250,9 @@ export const menuItems: MenuItem[] = [
   {
     id: "monster-milkshake",
     name: "Monster Milkshake",
+    nameEn: "Monster Milkshake",
     description: "Extrémní čokoládový shake s porcí šlehačky, brownies a čokoládovým topingem.",
+    descriptionEn: "An extreme chocolate shake with a mountain of whipped cream, brownies and chocolate topping.",
     price: 149,
     image: "/pva/images/menu/monster-milkshake.png",
     category: "fat",
