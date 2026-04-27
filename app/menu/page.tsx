@@ -192,9 +192,9 @@ function MenuContent() {
               />
               <div className="absolute inset-0 bg-gradient-to-r from-red-600/90 to-orange-500/80 flex items-center">
                 <div className="p-6 text-white">
-                  <span className="bg-white/20 px-3 py-1 rounded-full text-sm font-bold mb-2 inline-block">NOVINKA</span>
-                  <h3 className="text-2xl font-black">Bezedné omáčky ke každému jídlu!</h3>
-                  <p className="text-white/90">Ranch, BBQ, Česneková, Sýrová a další...</p>
+                  <span className="bg-white/20 px-3 py-1 rounded-full text-sm font-bold mb-2 inline-block">{t.menuPage.fatPromoBadge}</span>
+                  <h3 className="text-2xl font-black">{t.menuPage.fatPromoTitle}</h3>
+                  <p className="text-white/90">{t.menuPage.fatPromoDesc}</p>
                 </div>
               </div>
             </div>
