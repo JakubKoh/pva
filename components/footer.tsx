@@ -128,14 +128,14 @@ export function Footer() {
                   <Leaf className="h-4 w-4 text-fit" />
                   <span className="font-bold text-fit">FIT Menu</span>
                 </div>
-                <p className="text-gray-300">Po-Ne: 8:00 - 11:00</p>
+                <p className="text-gray-300">Po-Ne: 8:00 - 12:00</p>
               </div>
               <div className="p-4 rounded-xl bg-fat/20 border border-fat/30">
                 <div className="flex items-center gap-2 mb-2">
                   <Flame className="h-4 w-4 text-fat" />
                   <span className="font-bold text-fat">FAT Menu</span>
                 </div>
-                <p className="text-gray-300">Po-Ne: 11:00 - 22:00</p>
+                <p className="text-gray-300">Po-Ne: 12:00 - 22:00</p>
               </div>
             </div>
           </div>

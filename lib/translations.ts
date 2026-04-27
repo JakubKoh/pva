@@ -44,8 +44,8 @@ export const translations = {
     },
     // Concept section
     concept: {
-      fitTime: "8:00 - 11:00",
-      fatTime: "11:00 - 22:00",
+      fitTime: "8:00 - 12:00",
+      fatTime: "12:00 - 22:00",
       fitDesc: "Zdravé snídaně, proteinové pokrmy a smoothie bowls pro energický start dne.",
       fatDesc: "Šťavnaté burgery, křupavé stripsy a sýrové hranolky. Bezedné omáčky!",
     },
@@ -220,8 +220,8 @@ export const translations = {
     },
     // Concept section
     concept: {
-      fitTime: "8:00 - 11:00",
-      fatTime: "11:00 - 22:00",
+      fitTime: "8:00 - 12:00",
+      fatTime: "12:00 - 22:00",
       fitDesc: "Healthy breakfasts, protein meals and smoothie bowls for an energetic start.",
       fatDesc: "Juicy burgers, crispy strips and cheesy fries. Unlimited sauces!",
     },
