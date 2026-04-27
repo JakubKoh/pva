@@ -195,7 +195,7 @@ export const menuItems: MenuItem[] = [
     name: "Chili Cheese Dog",
     description: "Párek v rohlíku s domácím chili con carne, rozpuštěným čedarem a jalapeños.",
     price: 159,
-    image: "https://images.unsplash.com/photo-1612392062126-2f0e26e10ded?w=800&q=80",
+    image: "https://images.unsplash.com/photo-1556269923-e4ef51d69638?w=800&q=80",
     category: "fat",
     tags: ["Hot dog", "Pálivé"],
     extras: burgerExtras,
