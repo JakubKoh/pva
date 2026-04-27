@@ -25,7 +25,7 @@ import { Badge } from "@/components/ui/badge";
 import { menuItems, locations, deliveryZone } from "@/lib/menu-data";
 import { useLanguageStore } from "@/lib/stores/language-store";
 import { getTranslation } from "@/lib/translations";
-import { cn } from "@/lib/utils";
+import { cn, getLocalizedName, getLocalizedDescription } from "@/lib/utils";
 
 const Map = dynamic(() => import("@/components/map").then((mod) => mod.Map), {
   ssr: false,
@@ -313,7 +313,7 @@ export default function HomePage() {
                   />
                   <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-black/20 to-transparent" />
                   <div className="absolute bottom-3 left-3 right-3">
-                    <p className="text-white font-bold text-base sm:text-lg drop-shadow-lg line-clamp-1">{item.name}</p>
+                    <p className="text-white font-bold text-base sm:text-lg drop-shadow-lg line-clamp-1">{getLocalizedName(item, language)}</p>
                   </div>
                   <div className="absolute right-2 top-2">
                     <div className="bg-white rounded-full px-2 py-1 font-bold text-sm shadow-lg">
@@ -323,7 +323,7 @@ export default function HomePage() {
                 </div>
                 <CardContent className="p-3 sm:p-4">
                   <p className="text-xs sm:text-sm text-muted-foreground line-clamp-2 mb-3">
-                    {item.description}
+                    {getLocalizedDescription(item, language)}
                   </p>
                   <Button
                     asChild
