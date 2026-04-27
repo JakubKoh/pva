@@ -107,6 +107,9 @@ export const translations = {
       noExtras: "Žádné přídavky",
       totalPrice: "Celková cena",
       closeCustomizer: "Zavřít",
+      fatPromoBadge: "NOVINKA",
+      fatPromoTitle: "Bezedné omáčky ke každému jídlu!",
+      fatPromoDesc: "Ranch, BBQ, Česneková, Sýrová a další...",
     },
     // Locations page
     locationsPage: {
@@ -283,6 +286,9 @@ export const translations = {
       noExtras: "No extras",
       totalPrice: "Total price",
       closeCustomizer: "Close",
+      fatPromoBadge: "NEW",
+      fatPromoTitle: "Bottomless sauces with every meal!",
+      fatPromoDesc: "Ranch, BBQ, Garlic, Cheese and more...",
     },
     // Locations page
     locationsPage: {
