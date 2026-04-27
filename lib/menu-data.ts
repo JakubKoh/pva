@@ -39,7 +39,7 @@ export const menuItems: MenuItem[] = [
     extras: healthyExtras,
   },
   {
-    id: "scrambled-eggs",
+    id: "scrambled-egg",
     name: "Míchaná vajíčka",
     description: "Nadýchaná míchaná vajíčka s pažitkou, podávané s celozrnným toastem a čerstvou zeleninou.",
     price: 149,
