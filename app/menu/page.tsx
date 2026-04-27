@@ -111,7 +111,7 @@ function MenuContent() {
                     <Leaf className="h-7 w-7 text-fit" />
                   </div>
                   <div>
-                    <h3 className="font-bold text-lg text-fit">{t.menuPage.fitBadge}</h3>
+                    <h3 className="font-bold text-lg text-fit-dark">{t.menuPage.fitBadge}</h3>
                     <p className="text-muted-foreground">{t.menuSection.fitDesc}</p>
                   </div>
                 </div>
@@ -154,7 +154,7 @@ function MenuContent() {
                     <Flame className="h-7 w-7 text-fat" />
                   </div>
                   <div>
-                    <h3 className="font-bold text-lg text-fat">{t.menuPage.fatBadge}</h3>
+                    <h3 className="font-bold text-lg text-fat-dark">{t.menuPage.fatBadge}</h3>
                     <p className="text-muted-foreground">{t.menuSection.fatDesc}</p>
                   </div>
                 </div>

@@ -83,7 +83,7 @@ export function Navbar() {
             <div className="hidden lg:flex items-center gap-2 rounded-full bg-gradient-to-r from-fit/10 to-fat/10 px-3 py-1.5">
               <Clock className="h-4 w-4 text-muted-foreground" />
               <span className="text-xs font-medium">
-                <span className="text-fit">FIT</span> 8-12 | <span className="text-fat">FAT</span> 12-22
+                <span className="text-fit-dark font-bold">FIT</span> 8-12 | <span className="text-fat-dark font-bold">FAT</span> 12-22
               </span>
             </div>
 

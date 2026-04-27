@@ -102,7 +102,7 @@ export default function LocationsPage() {
                   <Navigation className="h-6 w-6 text-fit" />
                 </div>
                 <div>
-                  <h3 className="font-bold text-fit mb-1">{t.locationsPage.deliveryZoneTitle}</h3>
+                  <h3 className="font-bold text-fit-dark mb-1">{t.locationsPage.deliveryZoneTitle}</h3>
                   <p className="text-sm text-muted-foreground">
                     {t.locationsPage.deliveryZoneDesc}
                   </p>
@@ -115,7 +115,7 @@ export default function LocationsPage() {
                   <Truck className="h-6 w-6 text-fat" />
                 </div>
                 <div>
-                  <h3 className="font-bold text-fat mb-1">{t.locationsPage.fastDelivery}</h3>
+                  <h3 className="font-bold text-fat-dark mb-1">{t.locationsPage.fastDelivery}</h3>
                   <p className="text-sm text-muted-foreground">
                     {t.locationsPage.fastDeliveryDesc}
                   </p>
@@ -242,7 +242,7 @@ export default function LocationsPage() {
                   <div className="rounded-full bg-fit p-3">
                     <Leaf className="h-6 w-6 text-white" />
                   </div>
-                  <h3 className="text-2xl font-black text-fit">
+                  <h3 className="text-2xl font-black text-fit-dark">
                     {t.hero.fitMenu}
                   </h3>
                 </div>
@@ -254,7 +254,7 @@ export default function LocationsPage() {
                     </p>
                   </div>
                   <div className="bg-white rounded-lg p-3 border border-fit/20">
-                    <p className="text-2xl font-black text-fit">8:00 - 12:00</p>
+                    <p className="text-2xl font-black text-fit-dark">8:00 - 12:00</p>
                   </div>
                   <p className="text-sm text-muted-foreground">
                     ✓ {t.locationsPage.healthyBreakfasts}<br />
@@ -273,7 +273,7 @@ export default function LocationsPage() {
                   <div className="rounded-full bg-fat p-3">
                     <Flame className="h-6 w-6 text-white" />
                   </div>
-                  <h3 className="text-2xl font-black text-fat">
+                  <h3 className="text-2xl font-black text-fat-dark">
                     {t.hero.fatMenu}
                   </h3>
                 </div>
@@ -285,7 +285,7 @@ export default function LocationsPage() {
                     </p>
                   </div>
                   <div className="bg-white rounded-lg p-3 border border-fat/20">
-                    <p className="text-2xl font-black text-fat">12:00 - 22:00</p>
+                    <p className="text-2xl font-black text-fat-dark">12:00 - 22:00</p>
                   </div>
                   <p className="text-sm text-muted-foreground">
                     ✓ {t.locationsPage.juicyBurgers}<br />
