@@ -39,9 +39,9 @@ export const menuItems: MenuItem[] = [
     extras: healthyExtras,
   },
   {
-    id: "scrambled-eggs",
-    name: "Míchaná vajíčka",
-    description: "Nadýchaná míchaná vajíčka s pažitkou, podávané s celozrnným toastem a čerstvou zeleninou.",
+    id: "fried-egg",
+    name: "Volské oko",
+    description: "Volské oko s pažitkou, podávané s celozrnným toastem a čerstvou zeleninou.",
     price: 149,
     image: "https://images.unsplash.com/photo-1525351484163-7529414344d8?w=800&q=80",
     category: "fit",
