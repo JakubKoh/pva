@@ -141,4 +141,4 @@ The static site is served at `/pva` base path (configured in `next.config.mjs`).
 
 ## 👤 Author
 
-**Jakub Koh** — PVA school project
+**Jakub Kohoutek, Ruben Amaral, Ondřej Jirásek, Jakub Karas** — PVA school project
